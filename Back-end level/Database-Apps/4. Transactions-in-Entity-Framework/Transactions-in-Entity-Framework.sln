@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Models", "NewsDB.Models\NewsDB.Models.csproj", "{4C694D6A-57D9-47A6-97F0-8B6CFF636FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Data", "NewsDB.Data\NewsDB.Data.csproj", "{E087F3D2-1BF1-4E38-8572-457B1F8FA5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.ConsoleClient", "NewsDB.ConsoleClient\NewsDB.ConsoleClient.csproj", "{1C5E79F1-8150-4ED7-BD6A-0371C0FA4755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem_5-6_ATM_Withdrawal", "Problem_5-6_ATM_Withdrawal\Problem_5-6_ATM_Withdrawal.csproj", "{157049CD-F5A8-4561-B798-724DE1C24BE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C694D6A-57D9-47A6-97F0-8B6CFF636FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C694D6A-57D9-47A6-97F0-8B6CFF636FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C694D6A-57D9-47A6-97F0-8B6CFF636FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C694D6A-57D9-47A6-97F0-8B6CFF636FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E087F3D2-1BF1-4E38-8572-457B1F8FA5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E087F3D2-1BF1-4E38-8572-457B1F8FA5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E087F3D2-1BF1-4E38-8572-457B1F8FA5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E087F3D2-1BF1-4E38-8572-457B1F8FA5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5E79F1-8150-4ED7-BD6A-0371C0FA4755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5E79F1-8150-4ED7-BD6A-0371C0FA4755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5E79F1-8150-4ED7-BD6A-0371C0FA4755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5E79F1-8150-4ED7-BD6A-0371C0FA4755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157049CD-F5A8-4561-B798-724DE1C24BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157049CD-F5A8-4561-B798-724DE1C24BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157049CD-F5A8-4561-B798-724DE1C24BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157049CD-F5A8-4561-B798-724DE1C24BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

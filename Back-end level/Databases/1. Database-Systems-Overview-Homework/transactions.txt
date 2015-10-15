@@ -1,0 +1,6 @@
+1. ACID - Atomicity, Consistency, Isolation, Durability.
+2.The transaction log is a critical component of the database and, 
+if there is a system failure, the transaction log might be required 
+to bring your database back to a consistent state. The transaction 
+log should never be deleted or moved unless you fully understand the
+ ramifications of doing this.

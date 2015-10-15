@@ -1,0 +1,11 @@
+1.A table is a data structure used to organize information, just as it is on paper.
+
+2.Well, first each database table is given a unique name. Without a unique name the 
+DBMS (DataBase Management System) would get very confused.Next, each column in the 
+table is given a unique name. This doesn't mean each column that you
+name has to be unique within the entire database. It only has to be unique within 
+the table you have created.The next thing to understand about your table is the 
+Primary Key. The Primary Key simply refers to a column in your table that is
+guaranteed unique. The Primary Key is then used for the purposes of indexing your 
+table which makes it much more efficient to search, sort, link, etc.The difrences
+is table is place where is stored date, realations is connection between data.

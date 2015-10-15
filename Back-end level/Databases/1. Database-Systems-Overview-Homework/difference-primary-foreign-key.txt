@@ -1,0 +1,22 @@
+1.Primary key is unique key generated from db system for every new entry in table.
+2.For example: if we have two elements same or similiar with unique key we can
+identify them.
+3.Foreign key is feild in one table that uniquey identifies a row of another table.
+4.In a foreign key reference, a link is created between two tables when the column 
+or columns that hold the primary key value for one table are referenced by the column 
+or columns in another table. This column becomes a foreign key in the second table.
+5.
+--------    Primary Key    --------   
+1.Primary key uniquely identify a record in the table.
+2.Primary Key can't accept null values.	
+3.By default, Primary key is clustered index and data in the database table is 
+physically organized in the sequence of clustered index.
+4.We can have only one Primary key in a table.
+
+
+--------    Foreign Key    --------  
+1.Foreign key is a field in the table that is primary key in another table.
+2.Foreign key can accept multiple null value.
+3.Foreign key do not automatically create an index, clustered or non-clustered. 
+You can manually create an index on foreign key.
+4.We can have more than one foreign key in a table.

@@ -1,0 +1,9 @@
+1.Stataic
+2.Designed for managing data held in a RDBMS.
+3.
+CASE WHEN n > 0
+          THEN 'positive'
+     WHEN n < 0
+          THEN 'negative'
+     ELSE 'zero'
+END

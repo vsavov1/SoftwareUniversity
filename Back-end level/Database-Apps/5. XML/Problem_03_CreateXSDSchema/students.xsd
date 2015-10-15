@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xs:schema xmlns:exam="http://gogo.mogo" xmlns:student="urn:student" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="urn:student" />
+  <xs:element name="university">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="student:student" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

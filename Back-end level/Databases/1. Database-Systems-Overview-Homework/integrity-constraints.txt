@@ -1,0 +1,22 @@
+Integrity constraints are used to ensure accuracy and consistency of data in a relational database. 
+Data integrity is handled in a relational database through the concept of referential integrity. 
+Many types of integrity constraints play a role in referential integrity.
+
+Primary Key Constraints
+Primary key is the term used to identify one or more columns in a table that make a row of data unique.
+
+Unique Constraints
+A unique column constraint in a table is similar to a primary key in that the value in that column for 
+every row of data in the table must have a unique value.
+
+
+Foreign Key Constraints
+A foreign key is a column in a child table that references a primary key in the parent table. 
+A foreign key constraint is the main mechanism used to enforce referential integrity between
+ tables in a relational database. 
+
+NOT NULL Constraints
+Previous examples use the keywords NULL and NOT NULL listed on the same line as each column 
+and after the data type. NOT NULL is a constraint that you can place on a table's column. 
+This constraint disallows the entrance of NULL values into a column; in other words, data is
+required in a NOT NULL column for each row of data in the table.

@@ -1,0 +1,10 @@
+1.Normalized tables are usually smaller and have a smaller foot-print because the data is 
+divided vertically among many tables. This allows them to perform better as they are small 
+enough to get fit into the buffer.
+2.The updates are very fast because the data to be updated is located at a single place and 
+there are no duplicates.
+3.Similarly the inserts are very fast because the data has to be inserted at a single place 
+and does not have to be duplicated.
+4.The selects are fast in cases where data has to be fetched from a single table, because 
+normally normalized tables are small enough to get fit into the buffer.Because the data is 
+not duplicated so there is less need for heavy duty group by or distinct queries.

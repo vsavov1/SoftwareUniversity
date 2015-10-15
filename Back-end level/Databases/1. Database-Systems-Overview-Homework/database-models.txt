@@ -1,0 +1,20 @@
+1.A hierarchical database model is a data model in which the data is organized into 
+a tree-like structure. The data is stored as records which are connected to one 
+another through links. A record is a collection of fields, with each field containing 
+only one value. The entity type of a record defines which fields the record contains.
+
+2.The network model is a database model conceived as a flexible way of representing 
+objects and their relationships. Its distinguishing feature is that the schema, viewed 
+as a graph in which object types are nodes and relationship types are arcs, is not 
+restricted to being a hierarchy or lattice.
+
+3.An object database (also object-oriented database management system) is a database 
+management system in which information is represented in the form of objects as used in 
+object-oriented programming. Object databases are different from relational databases 
+which are table-oriented. Object-relational databases are a hybrid of both approaches.
+
+4.A document-oriented database is a computer program designed for storing, retrieving, 
+and managing document-oriented information, also known as semi-structured data. 
+Document-oriented databases are one of the main categories of NoSQL databases and the 
+popularity of the term "document-oriented database" (or "document store") has grown
+with the use of the term NoSQL itself.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root-dir path="../../dir.xml">
+	<dir name="photos">
+		<file name="photo1.txt" />
+		<file name="photo2.txt" />
+		<file name="photo3.txt" />
+	</dir>
+	<dir name="porn">
+		<file name="porn1.txt" />
+		<file name="porn2.txt" />
+		<file name="porn3.txt" />
+	</dir>
+	<dir name="videos">
+		<file name="video1.txt" />
+		<file name="video2.txt" />
+		<file name="video3.txt" />
+	</dir>
+</root-dir>

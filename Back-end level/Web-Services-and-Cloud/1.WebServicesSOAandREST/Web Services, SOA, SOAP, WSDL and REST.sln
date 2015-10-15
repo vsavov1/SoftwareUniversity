@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. DistanceCalculatorSOAPService", "DistanceCalculatorSOAPService\1. DistanceCalculatorSOAPService.csproj", "{BFBCA0EE-CFE0-43F5-8D7F-B7FC499354FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 .DistanceCalculatorClient", "DistanceCalculatorClient\2 .DistanceCalculatorClient.csproj", "{A52301FE-B116-44D5-983A-6296AA444EDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFBCA0EE-CFE0-43F5-8D7F-B7FC499354FB} = {BFBCA0EE-CFE0-43F5-8D7F-B7FC499354FB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Distance Calculator REST Client", "Distance Calculator REST Client\4. Distance Calculator REST Client.csproj", "{806F1126-A837-463A-8054-73CFCA973014}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFBCA0EE-CFE0-43F5-8D7F-B7FC499354FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBCA0EE-CFE0-43F5-8D7F-B7FC499354FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBCA0EE-CFE0-43F5-8D7F-B7FC499354FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBCA0EE-CFE0-43F5-8D7F-B7FC499354FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52301FE-B116-44D5-983A-6296AA444EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52301FE-B116-44D5-983A-6296AA444EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52301FE-B116-44D5-983A-6296AA444EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52301FE-B116-44D5-983A-6296AA444EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806F1126-A837-463A-8054-73CFCA973014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806F1126-A837-463A-8054-73CFCA973014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806F1126-A837-463A-8054-73CFCA973014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806F1126-A837-463A-8054-73CFCA973014}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

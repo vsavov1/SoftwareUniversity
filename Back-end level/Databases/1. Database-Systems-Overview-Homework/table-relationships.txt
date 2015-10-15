@@ -1,0 +1,5 @@
+1."One to one" - This is where there is, for any one entity, only one example of another related entity
+2."one to many/many to one" - This is where there is, for any one entity, many examples of another entity.
+3."Many to many" - This is where an entity can have many examples of another entity but this second
+entity can also have many examples of the first.
+4.

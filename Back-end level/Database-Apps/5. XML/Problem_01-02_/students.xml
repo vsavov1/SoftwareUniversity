@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<university xmlns:student="urn:student" xmlns:exam="http://gogo.mogo">
+   <student:student>
+      <student:name>third albums</name>
+      <student:gender>male</gender>
+      <student:birthdate>1997-07-16</birthdate>
+      <student:phonenumber>0895397521</phonenumber>
+      <student:university>softuni</university>
+      <student:specialty>obshtak</specialty>
+      <student:facultynumber>123455555</facultynumber>
+      <exam:exams>
+         <exam:name>examata</name>
+         <exam:datetaken>1997-07-16</datetaken>
+         <exam:grade>5</grade>
+      </exam:exams>
+   </student:student>
+</university>
+

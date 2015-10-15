@@ -1,0 +1,19 @@
+1.unique index to help locate information.
+2.Non-clustered, clustered, cluster.
+3.Clustering alters the data block into a certain distinct order to match the index, 
+resulting in the row data being stored in order. Therefore, only one clustered index can
+be created on a given database table. Clustered indices can greatly increase overall 
+speed of retrieval, but usually only where the data is accessed sequentially in the same 
+or reverse order of the clustered index, or when a range of items is selected.
+4.B-tree is a tree data structure that keeps data sorted and allows searches, sequential
+access, insertions, and deletions in logarithmic time.
+5.A columnstore index is a technology for storing, retrieving and managing data by using
+a columnar data format, called a columnstore.
+6.In text retrieval, full text search refers to techniques for searching a single 
+computer-stored document or a collection in a full text database.
+7.You can use a spatial index for indexing geo-objects - shapes. The spatial index makes 
+it possible to efficiently search for objects that overlap in space.
+8.Advantages: use an index for quick access to a database table specific information.
+The index is a structure of the database table the value of one or more columns to sort.
+Disadvantages: too index will affect the speed of update and insert, because it requires 
+the same update each index file. 

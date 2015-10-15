@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<catalog>
+  <albums>
+    <name>first albums</name>
+    <artist>z first artist</artist>
+    <year>2000</year>
+    <producer>first producer</producer>
+    <price>20</price>
+    <songs>
+      <title>first song</title>
+      <duration>3:40</duration>
+    </songs>
+    <songs>
+      <title>second song</title>
+      <duration>2:40</duration>
+    </songs>
+  </albums>
+  <albums>
+    <name>fourth albums</name>
+    <artist>z first artist</artist>
+    <year>2000</year>
+    <producer>first producer</producer>
+    <price>20</price>
+    <songs>
+      <title>first song</title>
+      <duration>3:40</duration>
+    </songs>
+    <songs>
+      <title>second song</title>
+      <duration>2:40</duration>
+    </songs>
+  </albums>
+  <albums>
+    <name>second albums</name>
+    <artist>second artist</artist>
+    <year>2003</year>
+    <producer>second producer</producer>
+    <price>5</price>
+    <songs>
+      <title>second song</title>
+      <duration>1:40</duration>
+    </songs>
+    <songs>
+      <title>second song</title>
+      <duration>2:45</duration>
+    </songs>
+  </albums>
+</catalog>
